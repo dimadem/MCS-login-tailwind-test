@@ -19,7 +19,7 @@ function App() {
     return (
       <>
         <h2>Нужно залогиниться!</h2>
-        <button className="btn" onClick={() => setLogin(true)}>
+        <button className="text-xl text-red-600 " onClick={() => setLogin(true)}>
           Войти
         </button>
       </>
